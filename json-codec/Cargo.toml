@@ -20,6 +20,11 @@ jiter.workspace = true
 
 [dev-dependencies]
 smithy4rs-test-utils = { path = "../test-utils" }
+criterion.workspace = true
+
+[[bench]]
+name = "serde_benchmark"
+harness = false
 
 [lints]
 workspace = true

@@ -1095,6 +1095,7 @@ dependencies = [
 name = "smithy4rs-json-codec"
 version = "0.0.1"
 dependencies = [
+ "criterion",
  "itoa",
  "jiter",
  "ryu",
